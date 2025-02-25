@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+body {
+    background-image: url('img/1330235.png');
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.a-a {
+    color: wheat;
+    text-decoration: none;
+    padding: 5px 15px 5px 15px;
+}
+
+.a-a:hover {
+    border-right: 1px solid;
+    border-left: 1px solid;
+    padding: 5px 14px 5px 14px;
+}
+
+.ul-navbar {
+    top: 0;
+    position: sticky;
+    justify-content: flex-end;
+    display: flex;
+}
+
+
+.content-box {
+    margin: 50px auto 0px;
+    width: 400px;
+    height: 540px;
+    background-color: rgba(255, 255, 255, 0.125);
+    border-radius: 20px;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    border: solid 1px wheat;
+}
+
+.text-title {
+    color: wheat;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.input-table {
+    margin: 80px auto 0px;
+}
+
+input[type="email"], input[type="password"], input[type="text"]  {
+    background-color: rgba(255, 255, 255, 0);
+    color: wheat;
+    border: none;
+    border-bottom: 1px solid  rgba(255, 255, 255, 1);
+    outline: none;
+    padding: 10px;
+    width:250px;
+}
+
+.password-backup {
+    display: block;
+    text-align: end;
+    margin-right: 52px;
+    margin-left: 0;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    text-decoration: none;
+    color: wheat;
+    font-size: 0.67em;
+    transition: color 0.2s ease;
+}
+
+.password-backup:hover {
+    color: white;
+}
+
+.grid-button {
+    display: grid;
+    place-items: center;
+}
+
+.button {
+    position: relative;
+    margin: 30px auto 0px;
+    border-radius: 10px;
+    font-size: 16px;
+    border: 1px solid transparent;
+    width: 296px;
+    background-color: wheat;
+    padding: 5px;
+    white-space: nowrap;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    font-family: 'Poppins', sans-serif;
+}
+
+.button:hover{
+    background-color: rgba(255, 255, 255, 0);
+    border: 1px solid rgba(255, 255, 255, 1);
+    color: white;
+}
+
+.button-google img{
+    height: 20px;
+    position: absolute; 
+    left: 10px;
+    opacity: 0;
+    transition: opacity 0.2s ease;
+}
+
+.button-facebook img{
+    height: 20px;
+    position: absolute; 
+    left: 10px;
+    opacity: 0;
+    transition: opacity 0.2s ease;
+}
+
+.button-google:hover img{
+    opacity: 1;
+}
+
+.button-facebook:hover img {
+    opacity: 1;
+}
+
+.login {
+    text-align: center;
+    margin: 5px auto;
+    text-decoration: none;
+    color: black;
+    font-size: small;
+    white-space: nowrap;
+    transition: color 0.2s ease;
+}
+
+.signup {
+    text-align: center;
+    margin: 5px auto;
+    text-decoration: none;
+    color: red;
+    font-size: small;
+    white-space: nowrap;
+    transition: color 0.2s ease;
+}
+
+.sucsses {
+    text-align: center;
+    margin: 5px auto;
+    text-decoration: none;
+    color: greenyellow;
+    font-size: small;
+    white-space: nowrap;
+    transition: color 0.2s ease;
+}
+
+.link-create:hover {
+    color: white;
+}
+
+input::placeholder {
+    color: white;
+    opacity: 0.5;
+}

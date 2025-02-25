@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+body {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    caret-color: transparent;
+}
+
+.a-a {
+    color: wheat;
+    text-decoration: none;
+    padding-right: 6px;
+}
+
+section {
+    height:679px;
+}
+
+.container-nav {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,0.7)),url('index-img/navbar-background/1330235.png');
+    height: 100%;
+    background-position: center;
+    position: relative;
+}
+
+.nav-start {
+    margin-left: 120px;
+    margin-top: 200px;
+    color: antiquewhite;
+}
+
+.nav-start1 {
+    color: antiquewhite;
+}
+
+.ul-navbar {
+    position: fixed;
+    margin-top: 0;
+    width: 100%;
+    display: flex;
+    justify-content:flex-end;
+    padding-left: 0;
+    height: 70px;
+    z-index: 1;
+}
+
+
+.log-navbar {
+    list-style-type: none;
+    text-align: left;
+    margin-right: 450px;
+    margin-top: 10px;
+}
+
+.li {
+    list-style-type: none;
+    margin-top: 10px;
+}
+
+.li-navbar-2 {
+    width: 800px;
+}
+
+.button  {
+    position: relative;
+    border-radius: 10px;
+    margin-top: 5px;
+    font-size: 16px;
+    border: 1px solid transparent;
+    width: 170px;
+    height: 40px;
+    background-color: antiquewhite;
+    padding: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav-button  {
+    background-color: rgba(2, 255, 255, 0);
+    color: antiquewhite;
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.button:hover{
+    background-color: rgba(255, 255, 255, 0);
+    border: 1px solid rgba(255, 255, 255, 1);
+    color: white;
+}
+
+.nav-button:hover{
+    background-color: antiquewhite;
+    filter: drop-shadow(none);
+    color: black;
+}
+
+
+.div-table {
+    margin-left: 160px;
+    display: flex;
+    justify-content: flex-start;
+    max-width: 600px;    
+}
+
+.tabble {
+    caret-color: transparent;
+    margin-top: 250px;
+}
+
+.td2 {
+    color: antiquewhite;
+    font-size: small;
+}
+
+.button:hover {
+    filter: drop-shadow(-4px 4px 7px);
+}
+
+.container-body {
+    background-color: #202020;
+    background-size: cover;
+    color: white;
+    height: 100%;
+}
+
+
+
+@media screen and ( max-width : 425px) {
+    .div-table {
+        margin-left: 25px;
+        font-size: 10px;
+    }
+    .ul-navbar {
+        
+    }
+
+    .nav-button {
+        font-size: 8px;
+        width: auto;
+    }
+
+    .body-button {
+        width: 100px;
+        font-size: 10px;
+    }
+}
