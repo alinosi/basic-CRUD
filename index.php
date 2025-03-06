@@ -32,23 +32,23 @@
             <?php else :?>
             <li class="li li-navbar-1"><a href="page/pageLogin/login.php" class="a-a"><button class="button nav-button">LOGIN</button></a></li>
             <?php endif; ?>
-        </ul>
-        </ul>
+          </ul>
         <div class="div-table">   
           <table class="tabble">
               <tr><td><h2 class="nav-start1">Rekomendasi Anime</h2></td></tr>
               <tr class="td2"><td>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat esse molestiae eveniet labore dolores iste culpa corrupti, vitae ex iure et dolor minima deserunt, doloremque qui, fugiat praesentium! Accusantium, mollitia.</td></tr>
               <tr><td><a href="page/page1/7juta.html"><button class="button body-button">Temukan</button></td></tr>
-        </table></div>
+          </table>
+        </div>
         </div>
         </section>
         <!-- NAVBAR SELESAI -->
         <!-- body -->
-        <section class="dinorasu">
+        <!-- <section class="dinorasu">
         <div class="container-body">
 
         </div>
-        </section>
+        </section> -->
         <script src="script.js"></script>
     </body>
 </html>
