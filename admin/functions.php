@@ -1,6 +1,6 @@
 <?php 
     // konek ke database terlebih dahulu dengan format (hostname, username, password, database name )
-    $conn = mysqli_connect("localhost", "root", "S@suke12", "phpdasar");
+    $conn = mysqli_connect("localhost","root" , "", "phpdasar");
     if (!$conn) {
         die("Koneksi gagal: " . mysqli_connect_error());
     }
